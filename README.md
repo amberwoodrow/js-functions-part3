@@ -23,27 +23,27 @@ console.log(test("ing"))
   getStudentName(studentName); // => Michael
   ```
 
-1. Define a function called `getTotalLetters` that takes an array of strings as an argument and returns the total number of letters in all strings.
+2. Define a function called `getTotalLetters` that takes an array of strings as an argument and returns the total number of letters in all strings.
 
   ```javascript
   var stringArray = ['javascript', 'is', 'not', 'python'];
   getTotalLetters(stringArray); // => 21
   ```
 
-1. Define a function called 'createObject' that takes two arguments and returns a new object with a key of the first argument and the value of the second argument.
+3. Define a function called 'createObject' that takes two arguments and returns a new object with a key of the first argument and the value of the second argument.
 
   ```javascript
   createObject('city', 'Boulder'); // => {city: 'Boulder'}
   ```
 
-1. Define a function called `getNegativeIndex` that takes an array and a negative number as arguments and returns the value from the array at the given negative index.
+4. Define a function called `getNegativeIndex` that takes an array and a negative number as arguments and returns the value from the array at the given negative index.
 
   ```javascript
   var letterArray = ['a', 'b', 'c', 'd', 'e'];
   getNegativeIndex(letterArray, -3); // => c
   ```
 
-1. Define a function called `removeCharacter` that takes a string and a single character (string or integer) as arguments and returns the string with the characters removed. Do not modify the original string. STRETCH: Write a test case for this last requirement.
+5. Define a function called `removeCharacter` that takes a string and a single character (string or integer) as arguments and returns the string with the characters removed. Do not modify the original string. STRETCH: Write a test case for this last requirement.
 
   ```javascript
   removeCharacter('javascript', 'a'); // => jvscript
