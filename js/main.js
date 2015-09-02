@@ -85,6 +85,7 @@ var code = {
     var a = {},
     uniqueArr = []; 
     for(var i=0; i < arr.length; i++) {
+      // !a[arr[i]] if arr[i] does not exist in a, add it!
       !a[arr[i]] && uniqueArr.push(arr[i]) && (a[arr[i]] = "pizza");
     }
     return uniqueArr;
