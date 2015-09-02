@@ -51,34 +51,34 @@ console.log(test("ing"))
   removeCharacter('12345', '2'); // => 1345
   ```
 
-1. Define a function called `outputObject` that takes an object as an argument and returns each key-value pair in the following format 'key .
+6. Define a function called `outputObject` that takes an object as an argument and returns each key-value pair in the following format 'key .
 
   ```javascript
   var ages = {john: 10, jerry: 11, jenny: 12 };
   outputObject(ages); // => john is 10, jerry is 11, jenny is 12
   ```
 
-1. Define a function called `getVowels` that takes a string as an argument and returns an array of all the vowels in the string. Do not include duplicates.
+7. Define a function called `getVowels` that takes a string as an argument and returns an array of all the vowels in the string. Do not include duplicates.
 
   ```javascript
   getVowels('javascripting'); // => ['a', 'i']
   ```
 
-1. Define a function called `captureTwins` that takes an array as an argument and returns true if every adjacent pair of items in the array is the same, otherwise return false.
+8. Define a function called `captureTwins` that takes an array as an argument and returns true if every adjacent pair of items in the array is the same, otherwise return false.
 
   ```javascript
   captureTwins(['m', 'm', 'n', 'n', 's', 's']); // => true
   captureTwins(['m', 'm', 'm', 'n', 's', 's']); // => false
   ```
 
-1. Define a function called `testBooleanLogic` that takes an array of boolean values and returns true if any value is true.
+9. Define a function called `testBooleanLogic` that takes an array of boolean values and returns true if any value is true.
 
   ```javascript
   testBooleanLogic([false, true, false, false]); // => true
   testBooleanLogic([false, false, false]); // =>  false
   ```
 
-1. Define a function called `getUniqueValues` that takes an array of strings, and returns a new array consisting of the unique values.
+10. Define a function called `getUniqueValues` that takes an array of strings, and returns a new array consisting of the unique values.
 
   ```javascript
   getUniqueValues(['m', 'n', 'm', 'r', 'r', 's']); // => ['m', 'n', 'r', 's']
